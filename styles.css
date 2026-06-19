@@ -59,13 +59,21 @@ body[data-theme="dark"] {
 }
 
 body[data-theme="dark"] .site-header {
-  background: #161b22;
-  border-bottom: 1px solid #30363d;
+  background: #010409;
+  border-bottom: 1px solid #8b949e;
+}
+
+body[data-theme="dark"] .nav-links a {
+  color: #f0f6fc;
 }
 
 body[data-theme="dark"] .theme-toggle {
-  background: #238636;
-  color: white;
+  background: #f0f6fc;
+  color: #0d1117;
+}
+
+body[data-theme="dark"] .theme-toggle:hover {
+  background: #c9d1d9;
 }
 
 @media (max-width: 600px) {
